@@ -4,47 +4,105 @@
     <title>Jonathan Guerra | Pasatiempos</title>
     <meta charset="UTF-8">
     <meta name="title" content="Pasatiempos de Jonathan Guerras">
-    <meta name="description" content="Hobbies o actividades en el tiempo libre">        
+    <meta name="description" content="Hobbies o actividades en el tiempo libre">    
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css" type="text/css">  
+    <link rel="stylesheet" href="assets\css\estilos.css" type="text/css">     
 </head>  
 <body>
-    <header>
-        <h1>Pasatiempos de Jonathan Guerra</h1>
-    </header>
-    <nav>
-        <a href="index.html">Home | </a>
-        <a href="estudios.html">Estudios | </a>
-        <a href="portafolio.html">Portafolio | </a>
-        <a href="#">Pasatiempos | </a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
-    <section>
-        <br><hr>
-        <h2><strong>Pasatiempos preferidos</strong></h2>
-        <ul>
-            <li>Toco las congas en un grupo musical llamado <em>Happy Boys.</em></li>
-            <img src="assets\img\happyboys.PNG" height="100 px"/>
-            <img src="assets\img\logo_HB.PNG" height="100 px"/>      
-            <li>Además del instrumento que toco en el grupo musical, me gusta tocar la bateria y la guitarra.</li>
-            <img src="assets\img\bateria.PNG" height="100 px"/>      
-            <li>Me gusta ir al gimnasio a hacer ejercicio cuando tengo tiempo, pero cuando no tengo tiempo hago ejercicio en mi casa.</li>
-            <img src="assets\img\gym.PNG" height="100 px"/>      
-            <li>Me gusta jugar video juegos en mi consola o en mi celular.</li>
-            <img src="assets\img\juegos.PNG" height="100 px"/>      
-            <li>Me gusta salir a ciclear con mi padre, mis tios y mis primos que estan en Ibarra.</li>
-            <img src="assets\img\ciclismo.PNG" height="100 px"/>       
-            <li>Miro videos entretenidos de youtubers sobre tecnologia en la plataforma <em>YOUTUBE</em>.</li>
-            <img src="assets\img\youtube.PNG" height="100 px"/>        
-            <li>Me encantar ir a la pscina con mi familia.</li>
-            <img src="assets\img\piscina.PNG" height="100 px"/>          
-            <li>Me gusta jugar boly con mis tios, mi primo, mi padre y mi hermano.</li>
-            <img src="assets\img\boly1.PNG" height="100 px"/>
-            <img src="assets\img\boly2.PNG" height="100 px"/>   
-            <li>Me gusta ir al <em>Vulqano Park</em> con mis primos y mi hermano.</li>
-            <img src="assets\img\vulcano.PNG" height="100 px"/>
-        </ul>
-    </section>
-    <footer>
-        <h4>Desarrollado por Jonathan Guerra &COPY; 2021</h4>
-    </footer>
+    <div class="container">
+        <header>
+            <h1>Pasatiempos de Jonathan Guerra</h1>
+        </header>
+        <hr>
+        <nav class="navbar navbar-light" style="background-color: #f1c430;">
+            <div class="container-fluid">
+              <a class="btn btn-outline-dark" href="index.html">Home</a>
+              <a class="btn btn-outline-dark" href="estudios.html">Estudios</a>
+              <a class="btn btn-outline-dark" href="portafolio.html">Portafolio</a>
+              <a class="btn btn-outline-dark" href="#">Pasatiempos</a>
+              <a class="btn btn-outline-dark" href="contacto.html">Contacto</a>
+            </div>
+          </nav>
+          <hr>
+        <section>
+            <br>
+            <p class="titulos_todo"><strong>PASATIEMPOS PREFERIDOS</strong></p>
+            <div class="card-group">
+                <div class="card border-dark mb-3">
+                  <img src="assets\img\happyboys.PNG" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Grupo musical</h5>
+                    <p class="card-text">Toco las congas en un grupo musical llamado <em>Happy Boys.</em></p>
+                  </div>
+                </div>
+                <div class="card border-dark mb-3">
+                    <img src="assets\img\bateria.PNG" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Afición musical</h5>
+                      <p class="card-text">Además del instrumento que toco en el grupo musical, me gusta tocar la bateria y la guitarra.</p>
+                    </div>
+                  </div>
+                  <div class="card border-dark mb-3">
+                    <img src="assets\img\gym.PNG" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Gimnasio</h5>
+                      <p class="card-text">Me gusta ir al gimnasio a hacer ejercicio cuando tengo tiempo, pero cuando no tengo tiempo hago ejercicio en mi casa.</p>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="card-group">
+                <div class="card border-dark mb-3">
+                  <img src="assets\img\juegos.PNG" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Videojuegos</h5>
+                    <p class="card-text">Me gusta jugar video juegos en mi consola o en mi celular.</p>
+                  </div>
+                </div>
+                <div class="card border-dark mb-3">
+                    <img src="assets\img\ciclismo.PNG" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Ciclismo</h5>
+                      <p class="card-text">Me gusta salir a ciclear con mi padre, mis tios y mis primos que estan en Ibarra.</p>
+                    </div>
+                  </div>
+                  <div class="card border-dark mb-3">
+                    <img src="assets\img\youtube.PNG" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Entretenimiento</h5>
+                      <p class="card-text">Miro videos entretenidos de youtubers sobre tecnologia en la plataforma <em>YOUTUBE</em>.</p>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="card-group">
+                <div class="card border-dark mb-3">
+                  <img src="assets\img\piscina.PNG" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Piscina</h5>
+                    <p class="card-text">Me encantar ir a la pscina con mi familia.</p>
+                  </div>
+                </div>
+                <div class="card border-dark mb-3">
+                    <img src="assets\img\boly1.PNG" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Deporte favorito</h5>
+                      <p class="card-text">Me gusta jugar boly con mis tios, mi primo, mi padre y mi hermano.</p>
+                    </div>
+                  </div>
+                  <div class="card border-dark mb-3">
+                    <img src="assets\img\vulcano.PNG" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Entretenimiento</h5>
+                      <p class="card-text">Me gusta ir al <em>Vulqano Park</em> con mis primos y mi hermano.</p>
+                    </div>
+                  </div>
+              </div>
+        </section>
+        <footer>
+            <br><hr>
+            <h4>Desarrollado por Jonathan Guerra &COPY; 2021</h4><br>
+        </footer>
+    </div>
 </body>
 </html> 

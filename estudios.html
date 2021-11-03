@@ -4,42 +4,65 @@
     <title>Jonathan Guerra | Estudios</title>
     <meta charset="UTF-8">
     <meta name="title" content="Estudios de Jonathan Guerra">
-    <meta name="description" content="Informacion academica y cursos realizados">        
+    <meta name="description" content="Informacion academica y cursos realizados">   
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css" type="text/css">  
+    <link rel="stylesheet" href="assets\css\estilos.css" type="text/css">      
 </head>  
 <body>
-    <header>
-        <h1>Estudios de Jonathan Guerra</h1>
-    </header>
-    <nav>
-        <a href="index.html">Home | </a>
-        <a href="#">Estudios | </a>
-        <a href="portafolio.html">Portafolio | </a>
-        <a href="pasatiempos.html">Pasatiempos | </a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
-    <section>
-        <br><hr>
-        <p><strong><u>ESTUDIOS FORMALES</u></strong></p>
-        <ul>
-            <li><b><i>Universidad</i></b></li>
-            <P>Estoy estudiando en la <abbr title="Universidad Politecnica Salesiana">UPS</abbr>, en la carrera de Ingenieria en las Ciencias de la computación y voy en el quinto semestre de la carrera.</P>
-            <img src="assets\img\salesiana.PNG" height="70 px"/><br>
-            <li><b><i>Colegio</i></b></li>
-            <P>Estudié en el Colegio Nacional Dr. Emilio Uzcategui. En ese colegio estuve desde octavo hasta tercero de bachillerato. En ese colegio me gradué.</P>
-            <img src="assets\img\emilio_uzcategui.PNG" height="100 px"/><br>
-            <li><b><i>Escuela</i></b></li>
-            <P>Estudié en  dos escuelas, en la escuela UERS y en la San Marino.</P>
-            <img src="assets\img\san_marino.PNG" height="100 px"/><br>
-        </ul>
-        <p><strong><u>CURSOS REALIZADOS</u></strong></p>
-        <ul>
-            <li><b><i>Curso de <abbr title="Internet de la cosas">IoT</abbr></i></b></li>
-            <p>Realicé un curso de Iot de cisco, en el cual aprendí sobre la interconexión de dispositivos a traves de la red.</p>
-            <img src="assets\img\iot.PNG" height="100 px"/><br>
-        </ul>
-    </section>
-    <footer>
-        <h4>Desarrollado por Jonathan Guerra &COPY; 2021</h4>
-    </footer>
+    <div class="container">
+        <header>
+            <h1>Estudios de Jonathan Guerra</h1>
+        </header>
+        <hr>
+        <nav class="navbar navbar-light" style="background-color: #f1c430;">
+            <div class="container-fluid">
+              <a class="btn btn-outline-dark" href="index.html">Home</a>
+              <a class="btn btn-outline-dark" href="#">Estudios</a>
+              <a class="btn btn-outline-dark" href="portafolio.html">Portafolio</a>
+              <a class="btn btn-outline-dark" href="pasatiempos.html">Pasatiempos</a>
+              <a class="btn btn-outline-dark" href="contacto.html">Contacto</a>
+            </div>
+          </nav>
+          <hr>
+        <section>
+            <br>
+            <p class="titulos_todo"><strong>ESTUDIOS FORMALES</strong></p>
+            <div class="card-group">
+                <div class="card border-dark mb-3">
+                  <img src="assets\img\salesiana.PNG" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">UNIVERSIDAD</h5>
+                    <p class="card-text">Estoy estudiando en la <abbr title="Universidad Politecnica Salesiana">UPS</abbr>, en la carrera de Ingenieria en las Ciencias de la computación y voy en el quinto semestre de la carrera.</p>
+                  </div>
+                </div>
+                <div class="card border-dark mb-3">
+                    <img src="assets\img\emilio_uzcategui.PNG" class="card-img-top" width="150" height="150">
+                    <div class="card-body">
+                      <h5 class="card-title">COLEGIO</h5>
+                      <p class="card-text">Estudié en el Colegio Nacional Dr. Emilio Uzcategui. En ese colegio estuve desde octavo hasta tercero de bachillerato. En ese colegio me gradué.</p>
+                    </div>
+                  </div>
+                  <div class="card border-dark mb-3">
+                    <img src="assets\img\s_m_uers.PNG" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">ESCUELAS</h5>
+                      <p class="card-text">Estudié en  dos escuelas, en la San Marino y en la escuela UERS.</p>
+                    </div>
+                  </div>
+              </div>
+            <p class="titulos_todo"><strong>CURSOS REALIZADOS</strong></p>
+            <div class="card border-dark mb-3" style="width: 18rem;">
+                <img src="assets\img\iot.PNG" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">CURSO DE <abbr title="Internet de la cosas">IoT</abbr></h5>
+                  <p class="card-text">Realicé un curso de Iot de cisco, en el cual aprendí sobre la interconexión de dispositivos a traves de la red.</p>
+                </div>
+              </div>
+        </section>
+        <footer>
+            <br><hr>
+            <h4>Desarrollado por Jonathan Guerra &COPY; 2021</h4><br>
+        </footer>
+    </div>
 </body>
 </html> 
