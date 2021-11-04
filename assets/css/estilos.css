@@ -12,35 +12,12 @@ h1, h3, .index_tit, .mapa, .contact_red_sociales{
     text-align: center;
 }
 
-
-footer h4{
-    font-style: italic; text-align: right;
-}
-
 .formulario{
     padding: 30px;
     border: 2px solid #665544;
 }
 
-/*Para modificar el diseño de los contactos en el contacto*/
-.facebook{
-    text-decoration: none;
-    color: rgb(13, 13, 230);
-    text-transform: uppercase;
-    font-size: 18px;
-}
-.facebook:hover{
-    color: rgb(91, 91, 216);
-}
-.instagram{
-    text-decoration: none;
-    color: rgb(204, 0, 255);
-    text-transform: uppercase;
-    font-size: 18px;
-}
-.instagram:hover{
-    color: orange;
-}
+/*Para modificar el diseño de las letras del telefono*/
 .telefono{
     text-decoration: none;
     color: rgb(9, 218, 9);
@@ -54,4 +31,13 @@ footer h4{
 /**/
 .container{
     background-color:white; 
+}
+/*Bordes en los contenedores de contacto*/
+div.contact_red_sociales, div.mapa, div.formulario{
+    border: 10px solid #f1c430;
+    background-color: rgb(43, 43, 43);
+    margin:  20px;
+}
+div.contact_red_sociales .titulos_todo, div.mapa .titulos_todo, div.formulario .form-label, h3{
+    color: white;
 }
